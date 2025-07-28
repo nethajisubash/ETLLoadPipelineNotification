@@ -26,22 +26,6 @@ The pipeline is triggered when data is uploaded to S3, processed with AWS Glue, 
 - **Amazon SNS** → Sends success/failure notifications via email  
 - **Amazon CloudWatch** → Centralized logging and monitoring  
 
-## 📋 Prerequisites
-- An **AWS account**  
-  - Glue is **not free tier**; S3, Lambda, EventBridge, SNS, and CloudWatch have limited free-tier usage  
-- Basic familiarity with the **AWS Console**  
-- **Python knowledge** for Lambda scripting  
-
-## ⚡ Quick Start
-Clone this repository to access example Lambda code and IAM policy templates.  
-Follow the guide (or the referenced YouTube tutorial) to:
-
-- Create S3 buckets and folders  
-- Set up Lambda triggers and IAM permissions  
-- Build and configure a Glue ETL job  
-- Connect Glue job status to EventBridge & SNS for notifications  
-- Enable CloudWatch for monitoring  
-- Customize Lambda and Glue for your use case  
 
 ## 💡 Key Features
 - **Event-driven automation** → Upload a file to start the pipeline  
